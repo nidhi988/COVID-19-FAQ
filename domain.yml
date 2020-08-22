@@ -1,0 +1,104 @@
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - corona_intro
+  - corona_spread
+  - corona_food_spread
+  - warm_weather
+  - high_risk
+  - corona_drug
+  - cold_weather
+  - pneumonia_vaccine
+  - water_prevention
+  - recovery_time
+  - prevention_steps
+  - gloves
+  - vegetable_wash
+  - clothes_wash
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+  
+  utter_corona_intro:
+  - text: "Coronavirus disease (COVID-19) is infectious disease caused by newly discovered coronavirus. It is large family of viruses which       may cause illness in animals or humans. In human, several coronaviruses are known to cause respiratory infections ranging from common       cold to more severe diseases such as Severe Acute Respiratory Syndrome (SARS). The covid-19 virus spreads primarily through droplets       of saliva or discharge from nose when an infected person coughs or sneezes, so it is important that you take care of respiratory           habits. COVID-19 is now a pandemic affecting many countries globally."
+  
+  utter_corona_food_spread:
+  - text: "Currently there is no evidence to suggest that handling food or consuming food is associated with covid-19. Though person can          cought infection by touching surfaces or object including food or food packaging that has virus on it."
+  
+  utter_corona_symptoms:
+  - text: "The most common symptoms of covid-19 are fever, dry cough, and tiredness. Other symptoms that are less common and may effect           some patients include aches and pains, nasal congestion,headache,conjuctivitis,sore threat,diarrhea,loss of taste or smell or rash on       skin or discoloration of fingers or toes.These symptoms are usually mild and begin gradually. Some people become infected but               only have very mild symptoms."
+  
+  utter_catching_covid_from_animals:
+  - text: "Several cats and dogs (domestic) in contact with infected humans have tested positive for covid-19. In addition ferrests appear         to be suspectible to the virus. In experimental conditions, both cats and ferrets were able to transmit infection to other animals         of same species. However there is no evidence that these animals can transmit the disease to humans."
+  
+  utter_corona_survive_on_surface:
+  - text: "The most important thing to know about coronavirus on surfaces is that they can easily be cleaned with common household                disinfectants that will kill the virus. Studies have shown that covid virus can survive upto 72 hours on plastic and stainless             steel, less than 24 hours on cardboard and less than 4 hours on copper."
+  
+  utter_mask_while_exercising:
+  - text: "People should not wear masks when exercising, as masks may reduce the ability to breathe comfortably. Sweat can make the mask           become wet more quickly which makes it difficult to breathe and promote the growth of microorganisms. However wearing mask properly         for long hours doesn't lead to oxygen deficiency or CO2 intoxication."
+  
+  utter_corona_spread:
+  - text: "People can catch covid-19 fromothers who have virus. The virus spread primarily from person to person through small droplets           from the nose or mouth, which are expelled when a person with virus coughs, sneezes or speaks. This is why there is need of atleast 1       metre distance from others. "
+  
+  utter_warm_weather:
+  - text: "A new study suggests that warm weather and increased humidity will probably not be effective in stopping the spread of covid-19."
+  
+  utter_high_risk:
+  - text: "Covid-19 is often more severe in people who are older than 60 years or who have health conditions like lung or heart diseases,         diabetes or conditions that effect their immune system. "
+  
+  utter_corona_drug:
+  - text: "To date, there is no specific medicine recommended to prevent or treat the new coronavirus. while many drug trials are ongoing,         there is no proof that hydroxychloroquine or any other drug that can cure or prevent covid virus."
+  
+  utter_cold_weather:
+  - text: "Cold weather and snow cannot kill the covid-19 virus. Themost effective way to remain safe is washing your hands frequently with       alcohol based hand rub."
+  
+  utter_pneumonia_vaccine:
+  - text: "Vaccines against pneumonia like pneumoccocal vaccine and Haemophilus influenza type B vaccine, do not provide protection against       new coronavirus."
+  
+  utter_water_prevention:
+  - text: "There is no evidence that drinking lots of water flushes out the covid-19 or the stomach acid kills the virus. However, for good       health in general, it is recommended that people should have adequate water every day."
+  
+  utter_recovery_time:
+  - text: "It is found that people with mild diseases, recovery time is about two weeks, while people with severe or critical disease             recover within three to six weeks."
+  
+  utter_prevention_steps:
+  - text: "1. Regularly and thproughly clean your hands with an alcohol based hand rub or wash them with soap and water. 2. Maintain atleat       1 meter distancce in public from others. 3.Avoid touching eyes, mouth and nose. 4. Make sure you, and people around you, follow good         respiratory hygiene."
+  
+  utter_gloves:
+  - text: "Regularly washing your bare hands effects more protection against catching covid-19 than wearing gloves of rubber. You can still       pick contamination on rubber gloves."
+  
+  utter_vegetable_wash:
+  - text: "Before handling vegetables, wash your hands with soap and water. Then, wash fruit and vegetables thoroughly with clean water,         especially if you eat them raw."
+  
+  utter_clothes_wash:
+  - text: "There is no need to use a washing machine or drier, nor extremely hot water. Once dry, make sure you clean your hands before           handling and storing your clothes, towels and bed linen."
+  
+  
+  
+  
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
